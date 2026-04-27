@@ -1,0 +1,19 @@
+# Large generated artefacts — not committed
+cache/
+output/
+input/
+logs/
+doc_id_mapping.json
+
+# Intermediate crash-recovery file (subset of graph_hyde_per_query.jsonl)
+results/graph_hyde_step3_output.jsonl
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env

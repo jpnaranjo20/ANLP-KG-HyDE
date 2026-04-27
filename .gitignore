@@ -1,0 +1,93 @@
+# ------------------------------
+# OS / editor metadata
+# ------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+
+# ------------------------------
+# Python artifacts
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.python-version
+
+# Tool caches / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ------------------------------
+# Local env / secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# ML / retrieval artifacts
+# ------------------------------
+*.tar.gz
+*.faiss
+*.index
+*.npy
+*.npz
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+contriever_msmarco_index/
+*_index/
+
+# ------------------------------
+# Runtime logs / dumps
+# ------------------------------
+hs_err_pid*.log
+*.log
+*.out
+*.err
+
+# ------------------------------
+# Experiment outputs
+# ------------------------------
+results*/
+**/results/
+
+# Generic metric files are ignored by default.
+**/metrics.json
+**/per_query_results.jsonl
+
+# Keep shared assignment artifacts in git.
+!all_results/**/metrics.json
+!all_results/**/per_query_results.jsonl
+
+# Keep GraphRAG retrieval results.
+!graphrag_hyde/results/
+!graphrag_hyde/results/**
+
+# ------------------------------
+# Project-local workspaces
+# ------------------------------
+hydeOnRAGBench/

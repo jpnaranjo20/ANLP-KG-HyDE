@@ -1,0 +1,34 @@
+{
+  "config": {
+    "mode": "graphrag_local_search",
+    "split": "test",
+    "data_source": "mteb/scifact (corpus:corpus/corpus, queries:queries/queries, qrels:default/test)",
+    "community_level": 0,
+    "max_ctx_tokens": 8000,
+    "top_ks": [
+      1,
+      3,
+      5,
+      10
+    ]
+  },
+  "metrics": {
+    "Recall@1": 0.4428888888888889,
+    "Precision@1": 0.46,
+    "MRR@1": 0.46,
+    "nDCG@1": 0.46,
+    "Recall@3": 0.5756111111111111,
+    "Precision@3": 0.20777777777777823,
+    "MRR@3": 0.5183333333333334,
+    "nDCG@3": 0.5296329738729917,
+    "Recall@5": 0.6346111111111111,
+    "Precision@5": 0.13800000000000015,
+    "MRR@5": 0.534,
+    "nDCG@5": 0.5528299442841019,
+    "Recall@10": 0.7065555555555556,
+    "Precision@10": 0.07866666666666684,
+    "MRR@10": 0.5430383597883597,
+    "nDCG@10": 0.5779855952924202,
+    "num_queries": 300.0
+  }
+}

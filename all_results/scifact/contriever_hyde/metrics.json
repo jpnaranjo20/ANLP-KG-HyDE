@@ -1,0 +1,30 @@
+{
+  "config": {
+    "mode": "contriever_hyde",
+    "embed_model": "facebook/contriever",
+    "llm_model": "gpt-4o-mini",
+    "split": "test",
+    "data_source": "mteb/scifact (corpus:corpus/corpus, queries:queries/queries, qrels:default/test)",
+    "top_ks": [
+      1,
+      10,
+      100
+    ],
+    "max_queries": null
+  },
+  "contriever_hyde": {
+    "Recall@1": 0.43344444444444447,
+    "Precision@1": 0.45666666666666667,
+    "MRR@1": 0.45666666666666667,
+    "nDCG@1": 0.45666666666666667,
+    "Recall@10": 0.7868333333333333,
+    "Precision@10": 0.08700000000000029,
+    "MRR@10": 0.5662182539682538,
+    "nDCG@10": 0.6111084774378481,
+    "Recall@100": 0.9453333333333334,
+    "Precision@100": 0.010633333333333267,
+    "MRR@100": 0.5714635058065586,
+    "nDCG@100": 0.6447202183341318,
+    "num_queries": 300.0
+  }
+}

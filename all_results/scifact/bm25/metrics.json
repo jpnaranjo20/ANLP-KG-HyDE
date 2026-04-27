@@ -1,0 +1,31 @@
+{
+  "config": {
+    "mode": "bm25",
+    "split": "test",
+    "prefer_beir": true,
+    "data_source": "mteb/scifact (corpus:corpus/corpus, queries:queries/queries, qrels:default/test)",
+    "bm25_k1": 0.9,
+    "bm25_b": 0.4,
+    "top_ks": [
+      1,
+      10,
+      100
+    ],
+    "max_queries": null
+  },
+  "bm25": {
+    "Recall@1": 0.5370555555555556,
+    "Precision@1": 0.5533333333333333,
+    "MRR@1": 0.5533333333333333,
+    "nDCG@1": 0.5533333333333333,
+    "Recall@10": 0.8071666666666666,
+    "Precision@10": 0.08866666666666698,
+    "MRR@10": 0.6460291005291005,
+    "nDCG@10": 0.6799128607697104,
+    "Recall@100": 0.9253333333333335,
+    "Precision@100": 0.010466666666666607,
+    "MRR@100": 0.6504933906738389,
+    "nDCG@100": 0.7067757615877827,
+    "num_queries": 300.0
+  }
+}

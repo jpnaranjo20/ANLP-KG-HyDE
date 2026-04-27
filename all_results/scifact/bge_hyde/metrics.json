@@ -1,0 +1,31 @@
+{
+  "config": {
+    "mode": "hyde",
+    "split": "test",
+    "prefer_beir": true,
+    "data_source": "mteb/scifact (corpus:corpus/corpus, queries:queries/queries, qrels:default/test)",
+    "embed_model": "BAAI/bge-base-en-v1.5",
+    "llm_model": "gpt-4o-mini",
+    "top_ks": [
+      1,
+      10,
+      100
+    ],
+    "max_queries": null
+  },
+  "hyde": {
+    "Recall@1": 0.5683333333333335,
+    "Precision@1": 0.59,
+    "MRR@1": 0.59,
+    "nDCG@1": 0.59,
+    "Recall@10": 0.882388888888889,
+    "Precision@10": 0.09933333333333373,
+    "MRR@10": 0.6900899470899472,
+    "nDCG@10": 0.7337866220646014,
+    "Recall@100": 0.9666666666666667,
+    "Precision@100": 0.010966666666666595,
+    "MRR@100": 0.6935907494594643,
+    "nDCG@100": 0.7529244262031434,
+    "num_queries": 300.0
+  }
+}
