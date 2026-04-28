@@ -8,7 +8,7 @@ Assignment instructions: <https://cmu-l3.github.io/anlp-spring2026/assignments/a
 
 Project proposal: [`project_proposal.pdf`](project_proposal.pdf)
 
-Final write-up: TODO
+Final report: [`report.pdf`](report.pdf)
 
 ## Team
 
